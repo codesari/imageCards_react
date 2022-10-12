@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/image-cards-react/static/css/main.f3976b35.css",
-    "main.js": "/image-cards-react/static/js/main.5e671174.js",
+    "main.css": "/image-cards-react/static/css/main.25f94cd2.css",
+    "main.js": "/image-cards-react/static/js/main.85afbcf9.js",
     "index.html": "/image-cards-react/index.html",
-    "main.f3976b35.css.map": "/image-cards-react/static/css/main.f3976b35.css.map",
-    "main.5e671174.js.map": "/image-cards-react/static/js/main.5e671174.js.map"
+    "main.25f94cd2.css.map": "/image-cards-react/static/css/main.25f94cd2.css.map",
+    "main.85afbcf9.js.map": "/image-cards-react/static/js/main.85afbcf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3976b35.css",
-    "static/js/main.5e671174.js"
+    "static/css/main.25f94cd2.css",
+    "static/js/main.85afbcf9.js"
   ]
 }
