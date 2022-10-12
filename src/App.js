@@ -9,10 +9,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      {data.map((item) => (
-        <Card {...item} />
-      ))}
-      <Card />
+      <div className="container">
+        {data.map((item, id) => (
+          <Card {...item} key={id} />
+        ))}
+      </div>
     </div>
   );
 }

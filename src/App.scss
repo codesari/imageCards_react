@@ -3,10 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
+// font-family: 'Amatic SC', cursive;
+// font-family: 'Hubballi', cursive;
+
 body {
   background-color: $bgColor;
   font-family: "Amatic SC", cursive;
 }
-
-// font-family: 'Amatic SC', cursive;
-// font-family: 'Hubballi', cursive;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
