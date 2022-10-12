@@ -1,0 +1,17 @@
+@import "../../scss/reset", "../../scss/variables";
+
+.navbar {
+  background-color: $navbarBgColor;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: $bgColor;
+    padding: 1rem;
+    font-size: 2rem;
+    &:hover {
+      background-color: $bgColor;
+      color: $navbarBgColor;
+    }
+  }
+}
