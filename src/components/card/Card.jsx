@@ -6,8 +6,10 @@ const Card = (data) => {
   return (
     <div className="card">
       <div className="title">{title}</div>
-      <img src={image} alt="notfound" />
-      <div className="desc">{desc}</div>
+      <div className="image">
+        <img src={image} alt="notfound" />
+        <div className="desc">{desc}</div>
+      </div>
     </div>
   );
 };
