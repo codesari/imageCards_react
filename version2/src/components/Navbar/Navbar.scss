@@ -1,0 +1,41 @@
+@import "../../scss/variables";
+@import "../../scss/responsives";
+
+nav {
+  width: 100%;
+  background-color: $renk1;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 24px;
+    list-style: none;
+    li {
+      padding: 1rem;
+
+      &:hover {
+        background-color: $renk2;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@include media-xsm {
+  ul {
+    flex-direction: column;
+    text-align: center;
+    li {
+      width: 100%;
+    }
+  }
+}
+@include media-sm {
+  ul {
+    flex-direction: row;
+    li {
+      width: auto;
+    }
+  }
+}

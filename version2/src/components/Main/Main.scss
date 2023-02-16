@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+
+body {
+  background-color: $renk2;
+}
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
